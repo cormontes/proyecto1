@@ -29,6 +29,7 @@ body{
 	color: white;
 	font-size: 30px;
 	padding-left: 5px;
+	text-shadow: 2px 2px #02010a;
 }
 #nav{
 	width: 90%;
@@ -56,6 +57,7 @@ nav a{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-bottom: 10px;
+	border:1px;
 	box-shadow: 5px #82c3a6; 
 }
 
@@ -74,21 +76,22 @@ nav a{
 }
 .im1:hover{
 	transform:rotate(10deg);
-	box-shadow:2px #82c3a6;
+	box-shadow:2px 2px #82c3a6;
 }
 .im2:hover{
 	transform: translate(5px,-20px);
-	box-shadow: #82c3a6 ;
-	border:1px solid black;
+	box-shadow:2px 2px #82c3a6 ;
 }
 
 #footer{
-	background: #C6d5c5;
+	background:#C6d5c5;
 	width: 90%;
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 .c{
 	width: 20%;
@@ -101,6 +104,9 @@ nav a{
 .r{
 	width: 20%;
 	margin: auto;
+}
+.r p::before{
+	content: url(./imagen/tweter.png);
 }
 .d{
 	width: 20%;
@@ -155,6 +161,7 @@ nav a{
 	justify-content: center;
 	align-items: center;
 	font-size: 30px;
+
 	}
 	.c{
 		width: 30%;
