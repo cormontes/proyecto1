@@ -105,8 +105,9 @@ nav a{
 	width: 20%;
 	margin: auto;
 }
-.r p::before{
-	content: url(./imagen/tweter.png);
+.r img{
+	width: 30px;
+	height: 30px;
 }
 .d{
 	width: 20%;
